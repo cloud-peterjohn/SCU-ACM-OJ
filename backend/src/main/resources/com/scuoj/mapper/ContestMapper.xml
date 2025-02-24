@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scuoj.mapper.ContestMapper">
+    <!--动态sql-->
+    <select id="list" resultType="com.scuoj.pojo.Contest">
+        select * from contest
+        <where>
+            <if test="id!=null">
+                id=#{id}
+            </if>
+
+            <if test="title!=null">
+                and title=#{title}
+            </if>
+
+            <if test="createUser!=null">
+                and create_user=#{createUser}
+            </if>
+
+        </where>
+    </select>
+</mapper>

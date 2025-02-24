@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scuoj
+    username: scuoj
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  mail:
+    host: smtp.163.com
+    username: scuoj_demo@163.com
+    password: RZr278pmBDvSzLLq
+    properties:
+        mail:
+            smtp:
+            auth: true
+            starttls:
+                enable: false
+                required: false
+            ssl:
+                enable: true
+            socketFactory:
+                port: 465
+                class: javax.net.ssl.SSLSocketFactory
+    port: 465
+    protocol: smtps
+    default-encoding: UTF-8
+  freemarker:
+    template-loader-path: classpath:/templates/
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名和下划线命名的自动转换
+server:
+  port: 8081
