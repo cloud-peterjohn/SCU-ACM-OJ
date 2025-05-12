@@ -7,7 +7,7 @@ SCU-ACM-OJ is the first OJ system developed specifically for school-level ACM co
 ## Teams
 |Name|Role|
 |-|-|
-|Peter Joe|Frontend-User|
+|Peter John|Frontend-User|
 |Liaotian Feng|Frontend-Admin|
 |Hao Li|Backend & Database|
 |Yunlong Huang|Coder Evaluator & Problem Resources|
