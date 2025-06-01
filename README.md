@@ -1,5 +1,7 @@
 # SCU-ACM-OJ
 You can access our project demo on [here](www.scuoj.xyz) or [here](http://47.108.171.45). If you are not in P.R.C, you may failed to get access of our website.
+
+You can also access our power point presentation at [here](SCU-ACM-OJ.pptx) and our software development documentation at [here](document.pdf).
 ## Introduction
 SCU-ACM-OJ is an Online Judge system specifically designed for school-level ACM programming competitions, aimed at addressing the issues of existing OJ systems being unsuitable for school-level competitions. The system significantly enhances competition organization efficiency and participants' experience through a simple user interface, efficient competition organization, and comprehensive evaluation and feedback.
 ## Contributions
